@@ -1,10 +1,32 @@
 .nav {
-    margin: 25px;
+    margin: 25px !important;
 }
 
 #content {
-    margin: 25px;
-    line-height: 30px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.video-container {
+    height: 300px;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+
+  padding: 0 20%;
+  padding-top: 25%;
 }
 
 footer {

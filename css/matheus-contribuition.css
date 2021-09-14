@@ -1,3 +1,18 @@
+
+p {
+    text-indent: 65px;
+    text-align: justify;
+}
+
+code { 
+    padding: 15px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background: #efefef;
+    box-shadow:  14px 14px 28px #cbcbcb,
+                 -14px -14px 28px #ffffff;
+}
+
 .bio {
     text-align: justify;
     margin-bottom: 25px;

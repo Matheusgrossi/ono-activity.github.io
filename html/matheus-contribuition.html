@@ -32,13 +32,61 @@
             <!-- Fim do menu principal -->
 
             <!-- Começo do conteúdo da página -->
-            <div id="content" class="row">
+            <div id="content" class="col">
                 
+                <div style="margin-bottom: 15px;" class="row">
+                    <h1>Desafio de Data Science com o Dataset do Titanic</h1>
+                </div>
+
+                <div style="margin-bottom: 15px;" class="row">
+                    <h3>Introdução</h3>
+                </div>
                 
-                <div class="col-xl">
+                <div class="row">
                     <p>
-                        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                        Se você me conhece, sabe que gosto muito de coisas relacionadas à Data Science e tudo que é relacionado à dados 
+                        e informações, e apesar de ser uma área muito legal e cada vez mais que acessível ao público com cursos gratuitos, 
+                        Frameworks e coisas demais, no entanto apesar de ser uma área cada vez mais acessível, 
+                        não dá para negar que é necessário um determinado conhecimento matemático e estatístico para entender os algoritmos e saber onde aplicar os mesmos.
                     </p>
+                    <p>
+                        Apesar de toda experiência requerida, não é necessário implementar os algoritmos do zero, é para isso que existem Frameworks como o Scikit Learn, 
+                        Keras, TensorFlow e entre outros vários Frameworks para ajudar na implementação de algortitmos e no processamento de dados. Além desses Frameworks algumas plataformas como o Coursera, 
+                        Edx e Udemy estão repletos de cursos de todos os preços e todas as qualidades para ajudar quem quer se desenvolver na área.
+                    </p>
+                    <p>
+                        Além dessas plataformas de ensino, existem plataformas que promovem desafios para desenvolver ou treinar as skills nessa área, 
+                        e a mais famosa delas criada pela gigante Google é o um pouco menos famoso Kaggle. Dentro do Kaggle é possível acessar fóruns de discussões sobre problemas de Machine Learning 
+                        e principalmente participar de desafios e competições para demonstrar e exercitar skills para todos os níveis de familiaridade com a área.
+                    </p>
+                    <p>
+                        Portanto um dos melhores desafios para começar, é fazer uma previsão de pessoas que sobreviveram ao desastre do Titanic, sendo um problema de aprendizagem supervisionada e classificação, 
+                        é o perfeito Hello World para quem está começando na área.
+                    </p>
+                    <p>
+                        Se você quiser acessar e fazer o desafio pode acessar esse link que te levará diretamente para o desafio no Kaggle, se quiser me acompanhar em como eu fiz atingi um score de 0.77272% de acurácia.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: 15px;" class="row">
+                    <h3>Declarando algumas variáveis</h3>
+                </div>
+
+                <div class="row">
+                    <p style="text-indent: 0;">
+                        Para começar primeiro vamos declarar algumas variaveis abaixo:
+                    </p>
+                    <code>
+                        model = 'tree'
+
+                        <br>clf = None</br>
+
+                        <br>x = None</br>
+                        <br>y = None</br>
+                        <br>X = None</br>
+
+                        <br>is_data_processed = False if (x and y and X) is None else True</br>
+                    </code>
                 </div>
 
             </div>
@@ -56,19 +104,20 @@
                 <!-- Informações pessoais -->
                 <div class="row">
                     <div class="col">
-                    <div class="row">
-                        <h4>Curriculum Vitae</h4>
-                    </div>
+                        <div class="row">
+                            <h4>Curriculum Vitae</h4>
+                        </div>
 
-                    <div class="row">
-                        <span class="bio">
-                            Brasileiro de Campinas SP, Técnico em informática formado na Escola Salesiana São José
-                            no CPDB; com certificação de proeficiência em Inglês (MET) Michigan English Test, 
-                            atualmente cursando Tecnologia em análise e desenvolvimento de sistemas
-                            e estagiando na IBM Brasil na área de Análise de Dados.
-                        </span>
-                    </div>
+                        <div class="row">
+                            <span class="bio">
+                                Brasileiro de Campinas SP, Técnico em informática formado na Escola Salesiana São José
+                                no CPDB; com certificação de proeficiência em Inglês (MET) Michigan English Test, 
+                                atualmente cursando Tecnologia em análise e desenvolvimento de sistemas
+                                e estagiando na IBM Brasil na área de Análise de Dados.
+                            </span>
+                        </div>
                 </div>
+                
                 <div class="col">
                     <div class="row">
                         <h4>Atividades Extra-curriculares</h4>

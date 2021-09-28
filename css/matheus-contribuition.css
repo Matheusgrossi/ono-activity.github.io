@@ -4,13 +4,37 @@ p {
     text-align: justify;
 }
 
+ul {
+    margin-left: 35px;
+}
+
 code { 
+    color: black;
+    line-height: 20px;
+
     padding: 15px;
-    margin: 5px 0px;
+    margin: 20px 0px;
     border-radius: 10px;
     background: #efefef;
     box-shadow:  14px 14px 28px #cbcbcb,
                  -14px -14px 28px #ffffff;
+}
+
+code .reserved {
+    color: green;
+    font-weight: bold;
+}
+
+code .string {
+    color: rgb(255, 113, 114);
+}
+
+code .symbol {
+    color: rgb(169, 38, 249);
+}
+
+code .comment {
+    color: rgb(64, 128, 128);
 }
 
 .bio {
